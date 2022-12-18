@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.btn {
+  display: block;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 2rem;
+  width: 100%;
+  border: 1px solid #FFCCDC;
+  background-color: #c9265a;
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #B42251;
+  transition: 0.5s;
+}
+
+.outline {
+  color: #c9265a;
+  background-color: #FFCCDC;
+  border: 1px solid #c9265a;
+}
+
+.outline:hover {
+  color: #B42251;
+  background-color: #e5b7c6;
+  transition: 0.5s;
+}
+
+* {
+  background-color: #FFCCDC;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  gap: 1rem;
+}
+.login .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login .box img {
+  height: 24rem;
+}
+
+form {
+  text-align: center;
+  border-top: 2px solid #c9265a;
+  margin: 1rem 0;
+}
+form .subtitle {
+  text-align: center;
+}
+form .input {
+  display: block;
+  margin: 1rem 0;
+}
+form .input label {
+  display: block;
+  font-weight: bold;
+  text-align: start;
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+form .input input {
+  display: block;
+  height: 2rem;
+  width: 18rem;
+  max-width: 22rem;
+  border: none;
+  background-color: #FFF;
+  color: #c9265a;
+  padding: 0.5rem;
+}
+form .input input:focus {
+  outline: 2px solid #c9265a;
+}
+
+@media only screen and (min-width: 1024px) {
+  .login .box img {
+    height: 24rem;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 1023px) {
+  .login .box img {
+    height: 21rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .login {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .login .box-image {
+    display: none;
+  }
+}

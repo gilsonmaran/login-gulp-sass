@@ -1,0 +1,33 @@
+form {
+    text-align: center;
+    border-top: 2px solid $primaryColorDark;
+    margin: 1rem 0;
+    .subtitle {
+        text-align: center;
+    }
+    .input {
+        display: block;
+        margin: $spaceDefault 0;
+        label {
+            display: block;
+            font-weight: bold;
+            text-align: start;
+            margin: 0.25rem 0;
+            font-size: 1rem;
+        }
+        input {
+            display: block;
+            height: 2rem;
+            width: 18rem;
+            max-width: 22rem;
+            border: none;
+            background-color: #FFF;
+            color: $primaryColorDark;
+            padding: 0.5rem;
+            border-radius: $spaceDefault / 2;
+        }
+        input:focus {
+            outline: 2px solid $primaryColorDark;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "reset.scss";
+@import "btn.scss";
+* {
+    background-color: $primaryColor;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: $spaceDefault;
+    gap: $gapDefault;
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            height: 24rem;
+        }
+    }
+}
+
+@import "form.scss";
+@import "break-point.scss";

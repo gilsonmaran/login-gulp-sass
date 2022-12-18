@@ -1,0 +1,30 @@
+.btn {
+    display: block;
+    padding: $spaceDefault;
+    margin: $spaceDefault 0;
+    border-radius: 2rem;
+    width: 100%;
+    border: 1px solid $primaryColor;
+    background-color: $primaryColorDark;
+    color: $light;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: $primaryColorDarkHover;
+    transition: 0.5s;
+}
+
+.outline {
+    color: $primaryColorDark;
+    background-color: $primaryColor;
+    border: 1px solid $primaryColorDark;
+}
+
+.outline:hover {
+    color: $primaryColorDarkHover;
+    background-color: $primaryColorHover;
+    transition: 0.5s;
+}
